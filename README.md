@@ -54,5 +54,5 @@ Known variables, such as bottom-hole pressure, formation thickness, or completio
 
 ## Code
 
-- [`AssimNet_tensorflow/`](AssimNet_tensorflow/): TensorFlow notebooks for Cases I–III. Case I contains paths to saved models that must be replaced for a fresh run. Case II includes processed synthetic inputs but references model and result files that must be generated. Case III's field data and saved models are not included, so its notebook documents the workflow but cannot be run end to end from this repository alone.
+- [`AssimNet_tensorflow/`](AssimNet_tensorflow/): TensorFlow notebooks for Cases I–III. 
 - [`AssimNet_pytorch/`](AssimNet_pytorch/): PyTorch implementation and a runnable, synthetic Case I example; see its [setup and usage guide](AssimNet_pytorch/README.md).
