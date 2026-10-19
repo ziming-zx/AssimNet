@@ -1,0 +1,28 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Generated experiments and model checkpoints
+outputs/
+checkpoints/
+runs/
+saved models/
+saved model/
+saved results/
+*.pt
+*.pth
+*.keras
+*.h5
+*.log
+
+# Local settings
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+desktop.ini

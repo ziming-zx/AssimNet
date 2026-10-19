@@ -1,0 +1,8 @@
+# Python 3.12 / Windows x64 / NVIDIA CUDA 12.8.
+# Official GPU wheel with its SHA-256 from the PyTorch package index.
+# Direct URL avoids the download-r2 mirror and cannot resolve to a CPU build.
+--index-url https://pypi.org/simple
+
+torch @ https://download.pytorch.org/whl/cu128/torch-2.10.0%2Bcu128-cp312-cp312-win_amd64.whl#sha256=fbde8f6a9ec8c76979a0d14df21c10b9e5cab6f0d106a73ca73e2179bc597cae
+numpy==2.2.6
+matplotlib==3.8.4
